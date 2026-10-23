@@ -1,0 +1,21 @@
+{
+  "name": "bitacora-cli",
+  "version": "1.0.0",
+  "description": "En este proycto , estoy desarollanso un proyecto de bitàcora por consola",
+  "keywords": [
+    "aprendizaje",
+    "bitacora",
+    "programacion",
+    "consola",
+    "cli",
+    "javascript",
+    "nodejs"
+  ],
+  "license": "ISC",
+  "author": "Rudy",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
