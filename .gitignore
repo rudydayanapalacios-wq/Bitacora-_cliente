@@ -1,0 +1,6 @@
+
+.vs/
+node_modules/
+data/notas.json
+data/bitacora.log
+data/respaldos/
