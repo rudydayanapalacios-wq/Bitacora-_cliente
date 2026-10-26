@@ -19,6 +19,7 @@
     "start": "node src/index.js"
   },
   "dependencies": {
+    "fechas-bitacora-rudy": "file:../fechas-bitacora-rudy",
     "object-hash": "^3.0.0"
   }
 }
