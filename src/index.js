@@ -1,5 +1,5 @@
 import { agregar, listar, buscar, borrar } from './notas.js';
-import { registrar } from './almacen.js';
+import { registrar,respaldar,exportar } from './almacen.js';
 
 const args = process.argv.slice(2);
 const comando = args[0];
@@ -24,7 +24,13 @@ if (comando === 'agregar') {
     console.log(`listar [cantidad]`);
     console.log(`buscar "palabra"`);
     console.log(`borrar "id"`);
-    console.log(`ayuda`);
+    console.log(`ayuda`)
+    } else if (comando === 'respaldar') {
+    const resultado = respaldar();
+    registrar(comando, resultado);
+    } else if (comando === 'exportar') {
+    const resultado = exportar(texto);
+    registrar(comando, resultado);
 
     registrar(comando || 'ayuda', `Se mostró la ayuda`);
 } else {
